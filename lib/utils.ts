@@ -42,7 +42,6 @@ export function extractDescription($: any) {
   const selectors = [
     ".a-unordered-list .a-list-item",
     ".a-expander-content p",
-    // Add more selectors here if needed
   ];
 
   for (const selector of selectors) {
